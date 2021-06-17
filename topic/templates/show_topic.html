@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+    <title>topic</title>
+{% endblock %}
+
+{% block content %}
+    <div class="contents-topic">
+        <select class="topic-big invisible-scrollbar" name="mainCategory" multiple="multiple">
+        </select>
+
+        <i class="fas fa-caret-right"></i>
+        <i class="fas fa-caret-down"></i>
+
+        <select class="topic-small invisible-scrollbar" name="subCategory" multiple="multiple">
+        </select>
+    </div>
+    <!--multiple을 쓰면 다 보여주고 없으면 드롭다운으로 선택할 수 있음-->
+    <!--키워드로 css select 꾸미기 찾아보면 될듯-->
+
+    <div class="btn-nextprev">
+        <button class="prev" onclick="location.href='{% url 'index' %}'">Prev</button>
+        <button class="next" onclick="location.href='{% url 'voice:voice' %}'">Next</button>
+    </div>
+
+    <script src="{% static 'topic/topic.js' %}" ></script>
+
+{% endblock %}

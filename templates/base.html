@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{% static 'project/style.css' %}">
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+    {% block header %}
+
+    {% endblock %}
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}" class="logo">Good Talker</a>
+        <div class="nav-bar">
+            <p><a href="{% url 'topic:topic' %}">Topic</a></p>
+            <p><a href="{% url 'voice:voice' %}">Voice</a></p>
+            <p><a href="{% url 'analysis:analysis' %}">Analysis</a></p>
+            <!-- <i class="fas fa-bars fa-lg"></i> -->
+        </div>
+    </nav>
+
+    <div class="contents">
+        {% block content %}
+
+
+        {% endblock %}
+    </div>
+
+
+</body>
+</html>

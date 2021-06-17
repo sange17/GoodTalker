@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+    <title>voice</title>
+{% endblock %}   
+
+{% block content %}
+    <div class="loading" style="display: none;">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <div class="show-voice">
+        <div class="contents-upload">
+            <div class="upload-record">
+                <input type=checkbox id="chk-hear-mic"><label for="chk-hear-mic">마이크 소리 듣기</label>
+                <button id="record">녹음</button>
+                <button id="stop">정지</button>
+                <div id="sound-clips"></div>
+            </div>
+        </div>
+    
+        <div class="btn-nextprev">
+            <button class="prev" onclick="location.href='{% url 'topic:topic' %}'">Prev</button>
+            <button class="next" onclick="loading();location.href='{% url 'analysis:analysis' %}'">Next</button>
+        </div>
+    </div>
+    
+
+    <script src="{% static 'voice/voice.js' %}" ></script>
+    <script type="text/javascript">
+        function loading(){
+            $(".topicSentence").hide();
+            $(".show-voice").hide();
+            $(".loading").fadeIn("slow");
+        }
+    </script>
+{% endblock %}

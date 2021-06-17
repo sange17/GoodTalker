@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+    <title>analysis</title>
+    </style>
+{% endblock %}
+
+{% block content %}
+    loading page...
+    </div>
+    <div id="loading"></div>
+    <div class="btn-nextprev">
+        <button class="prev" onclick="location.href='{% url 'topic:topic' %}'">Prev</button>
+        <button class="save" onclick="location.href='{% url 'analysis:analysis' %}'">Next</button>
+    </div>
+
+{% endblock %}
