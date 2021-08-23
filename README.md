@@ -1,4 +1,8 @@
 # GOOD - TALKER
+<p align="center">
+   <img src="">
+</p>
+
 이 웹 프로그램은 대화 속 불필요한 간투사(어, 음, 그 등)와 말 더듬는 습관을 딥러닝 기술을 활용하여 판단한 후 사용 빈도 수를 알려주는 프로그램입니다.  
 This web program is a program that uses deep learning technology to determine unnecessary liver projections (uh, um etc.) and stuttering habits in a conversation, and then informs you of the frequency of use.
 
@@ -33,5 +37,6 @@ It will be a program that will teach you to effectively present your arguments i
 1. python -m venv venv
 2. 가상환경 실행
 3. pip install django
-4. python manage.py makemigation & migrate
-5. python manage.py runserver
+4. python manage.py makemigation
+5. python manage.py migrate
+6. python manage.py runserver
