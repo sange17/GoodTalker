@@ -1,7 +1,7 @@
 # GOOD - TALKER
 ![image](https://user-images.githubusercontent.com/73435545/130448216-a68fcece-d914-44f3-9aa6-1b29061fc73f.PNG)
 
-<img src="https://user-images.githubusercontent.com/73435545/130449513-313f6657-a673-4e10-8aaa-3b219ba5ba5e.PNG" align="center">
+<img src="https://user-images.githubusercontent.com/73435545/130449513-313f6657-a673-4e10-8aaa-3b219ba5ba5e.PNG" align="right">
 
 
 이 웹 프로그램은 대화 속 불필요한 간투사(어, 음, 그 등)와 말 더듬는 습관을 딥러닝 기술을 활용하여 판단한 후 사용 빈도 수를 알려주는 프로그램입니다.  
