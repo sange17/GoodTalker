@@ -3,16 +3,16 @@
 
 ## 기술(Skills)
 1. Front-end
-HTML
-CSS
-Javascript
+    - HTML
+    - CSS
+    - Javascript
 2. Back-end
-Django
+    - Django
 3. Machine Learning
-Tensorflow
-matplotlib
-librosa
-STT(Speech to Text)
+    - Tensorflow
+    - matplotlib
+    - librosa
+    - STT(Speech to Text)
 
 ## 기여해 주신 분들(Contributors)
 * [김인영](https://github.com/BBIYAC)
