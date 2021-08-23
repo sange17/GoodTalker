@@ -1,4 +1,5 @@
 # GOOD - TALKER
+이 웹 프로그램은 대화 속 불필요한 간투사(어, 음, 그 등)와 말 더듬는 습관을 딥러닝 기술을 활용하여 판단한 후 사용 빈도 수를 알려주는 프로그램입니다.
 
 ## 기술(Skills)
 1. Front-end
@@ -7,26 +8,22 @@ CSS
 Javascript
 2. Back-end
 Django
+3. Machine Learning
+Tensorflow
+matplotlib
+librosa
+STT(Speech to Text)
 
 ## 기여해 주신 분들(Contributors)
+[김인영][https://github.com/BBIYAC]
+성현석
 
 ## 동기(Motivation)
-유혹에 빠져서 시간을 낭비하는 사람들에게 경각심을 주고싶었다.
-We wanted to alert those who waste time in temptation.
-과거에는 어떻게 살았고 미래에는 어떻게 살 수 있을지 알려주고 싶었다.
-We wanted to tell you how you lived in the past and how you could live in the future.
-소개(Introduce)
-지금까지 가능했던 독서 횟수와 저금액을 알려준다.
-It tells you the number of readings and the amount you have saved so far.
-올해의 남은 시간과 지나온 시간을 알려준다.
-It tells you the remaining time and the past time of the year.
-선택한 수명을 사계절 기준으로 표현하여 보여준다.
-The selected life span is expressed in terms of four seasons and shown.
+면접이나 발표, 일상 대화 속 불필요한 간투사와 말 더듬는 것을 알아채기 쉽지 않기 때문에 잘못된 언어 습관을 사용하고 있는지 확인하기 위해 이 웹을 개발하게 되었습니다.
+
 ## 기대효과(Benefit)
-이 웹을 통해 시간의 소중함을 알게 된다면 앞으로 살게 될 인생에 조금이나마 동기부여가 될 것입니다.
-Knowing the value of time through this web will motivate you a bit in your future life.
-## 사이트 주소(Site URL)
-SITE URL
+생각치도 못했던 본인의 언어습관을 알아볼 수 있고 이를 통해 본인의 습관을 인지하고 서서히 고칠 수 있습니다.
+대화를 할 때 보다 정확한 내용을 전달하여 면접, 발표, 일상 대화 속 본인의 주장을 효율적으로 내세울 수 있게 지도해주는 프로그램이 될 것입니다.
 
 ## 실행
 1. python -m venv venv
