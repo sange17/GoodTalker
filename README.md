@@ -19,11 +19,14 @@
 * 성현석
 
 ## 동기(Motivation)
-면접이나 발표, 일상 대화 속 불필요한 간투사와 말 더듬는 것을 알아채기 쉽지 않기 때문에 잘못된 언어 습관을 사용하고 있는지 확인하기 위해 이 웹을 개발하게 되었습니다.
+면접이나 발표, 일상 대화 속 불필요한 간투사와 말 더듬는 것을 알아채기 쉽지 않기 때문에 잘못된 언어 습관을 사용하고 있는지 확인하기 위해 이 웹을 개발하게 되었습니다.<b>
+It's not easy to spot unnecessary language and stuttering in interviews, presentations, and everyday conversations, so we developed this web to check if you're using the wrong language habits.
 
 ## 기대효과(Benefit)
-생각치도 못했던 본인의 언어습관을 알아볼 수 있고 이를 통해 본인의 습관을 인지하고 서서히 고칠 수 있습니다.
-대화를 할 때 보다 정확한 내용을 전달하여 면접, 발표, 일상 대화 속 본인의 주장을 효율적으로 내세울 수 있게 지도해주는 프로그램이 될 것입니다.
+생각치도 못했던 본인의 언어습관을 알아볼 수 있고 이를 통해 본인의 습관을 인지하고 서서히 고칠 수 있습니다.<b>
+You can recognize your own language habits that you never thought possible, and through this, you can recognize your own habits and gradually change them.
+대화를 할 때 보다 정확한 내용을 전달하여 면접, 발표, 일상 대화 속 본인의 주장을 효율적으로 내세울 수 있게 지도해주는 프로그램이 될 것입니다.<b>
+It will be a program that will teach you to effectively present your arguments in interviews, presentations, and daily conversations by delivering more accurate content during conversations.
 
 ## 실행
 1. python -m venv venv
