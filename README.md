@@ -1,6 +1,9 @@
 # GOOD - TALKER
 ![image](https://user-images.githubusercontent.com/73435545/130448216-a68fcece-d914-44f3-9aa6-1b29061fc73f.PNG)
-![image](https://user-images.githubusercontent.com/73435545/130448223-1fb814ad-5388-485c-8783-3add7803eb8d.PNG)
+<p align="center">
+    ![image](https://user-images.githubusercontent.com/73435545/130448223-1fb814ad-5388-485c-8783-3add7803eb8d.PNG)
+</p>
+
 
 이 웹 프로그램은 대화 속 불필요한 간투사(어, 음, 그 등)와 말 더듬는 습관을 딥러닝 기술을 활용하여 판단한 후 사용 빈도 수를 알려주는 프로그램입니다.  
 This web program is a program that uses deep learning technology to determine unnecessary liver projections (uh, um etc.) and stuttering habits in a conversation, and then informs you of the frequency of use.
