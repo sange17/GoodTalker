@@ -15,8 +15,8 @@ librosa
 STT(Speech to Text)
 
 ## 기여해 주신 분들(Contributors)
-[김인영](https://github.com/BBIYAC)
-성현석
+* [김인영](https://github.com/BBIYAC)
+* 성현석
 
 ## 동기(Motivation)
 면접이나 발표, 일상 대화 속 불필요한 간투사와 말 더듬는 것을 알아채기 쉽지 않기 때문에 잘못된 언어 습관을 사용하고 있는지 확인하기 위해 이 웹을 개발하게 되었습니다.
