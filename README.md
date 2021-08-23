@@ -1,7 +1,7 @@
 # GOOD - TALKER
 ![image](https://user-images.githubusercontent.com/73435545/130448216-a68fcece-d914-44f3-9aa6-1b29061fc73f.PNG)
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/73435545/130448223-1fb814ad-5388-485c-8783-3add7803eb8d.PNG
+    <img src="https://user-images.githubusercontent.com/73435545/130449513-313f6657-a673-4e10-8aaa-3b219ba5ba5e.PNG
 ">
 </p>
 
