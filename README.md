@@ -15,7 +15,8 @@ librosa
 STT(Speech to Text)
 
 ## 기여해 주신 분들(Contributors)
-[김인영][https://github.com/BBIYAC]
+[김인영][인영이 깃헙 주소]
+[인영이 깃헙 주소] : https://github.com/BBIYAC
 성현석
 
 ## 동기(Motivation)
